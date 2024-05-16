@@ -1,0 +1,21 @@
+name: spacenavpro
+
+on:
+  - pull_request
+  - push
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    container:
+      image: ros:noetic
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build package
+      run: |
+        source /opt/ros/noetic/setup.bash
+        mkdir -p ~/catkin_ws/src
+        cd ~/catkin_ws/src
+        ln -s $GITHUB_WORKSPACE .
+        cd ~/catkin_ws
+        catkin_make
