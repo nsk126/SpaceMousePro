@@ -1,5 +1,6 @@
 # 3Dconnexion SpaceMouse #
-
+![example workflow](https://nsk126/SpaceMousePro/actions/workflows/main.yml/badge.svg)
+---
 ## spacenav_node
 
 This package is a fork of the original spacenav_node package.
