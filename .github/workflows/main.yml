@@ -16,6 +16,6 @@ jobs:
         cd ~/catkin_ws/src
         ln -s $GITHUB_WORKSPACE .
         cd ~/catkin_ws
-        apt install ros-$ROS_DISTRO-roslint
+        apt update && apt install ros-$ROS_DISTRO-roslint && rm -rf /var/lib/apt/lists/*
         bash -c 'source /opt/ros/$ROS_DISTRO/setup.bash; \
         catkin_make'
