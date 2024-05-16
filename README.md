@@ -1,5 +1,7 @@
 # 3Dconnexion SpaceMouse #
+
 ![example workflow](https://nsk126/SpaceMousePro/actions/workflows/main.yml/badge.svg)
+
 ---
 ## spacenav_node
 
