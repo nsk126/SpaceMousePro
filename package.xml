@@ -1,0 +1,20 @@
+<package format="2">
+  <name>spacenav_node</name>
+  <version>1.15.1</version>
+  <license>BSD</license>
+  <description>
+    This is a fork repo of the ROS interface to the 3Dconnexion SpaceNavigator 6DOF joystick.
+  </description>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roslint</build_depend>
+
+  <depend>geometry_msgs</depend>
+  <depend>libspnav-dev</depend>
+  <depend>libx11-dev</depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+
+  <exec_depend>spacenavd</exec_depend>
+</package>
