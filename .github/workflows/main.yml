@@ -18,4 +18,4 @@ jobs:
         cd ~/catkin_ws/src
         ln -s $GITHUB_WORKSPACE .
         cd ~/catkin_ws
-        catkin_make
+        bash -c 'catkin_make'
