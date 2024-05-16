@@ -6,6 +6,8 @@
     This is a fork repo of the ROS interface to the 3Dconnexion SpaceNavigator 6DOF joystick.
   </description>
 
+  <maintainer email="nsk126@gmail.com">Suresh Kondepudi</maintainer>
+
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>roslint</build_depend>
