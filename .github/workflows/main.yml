@@ -1,14 +1,13 @@
 name: spacenavpro
 
 on:
-  - pull_request
   - push
 
 jobs:
   build:
     runs-on: ubuntu-20.04
     container:
-      image: ros:noetic
+      image: ros:noetic-ros-core-focal
     steps:
     - uses: actions/checkout@v2
     - name: Build package
