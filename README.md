@@ -16,4 +16,4 @@ sudo apt install spacenavd libspnav-dev ros-$ROS_DISTRO-roslint -y
 ```
 
 ## Button mapping
-![image](https://github.com/nsk126/SpaceMousePro/spacemouse.png)
+![spacemouse](https://github.com/nsk126/SpaceMousePro/assets/27050474/03b591a9-2e6d-4fed-b142-24c70b2c7f4a)
