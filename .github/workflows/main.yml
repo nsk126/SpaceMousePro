@@ -16,6 +16,6 @@ jobs:
         cd ~/catkin_ws/src
         ln -s $GITHUB_WORKSPACE .
         cd ~/catkin_ws
-        apt update && apt install spacenavd libspnav-dev ros-$ROS_DISTRO-roslint -y && rm -rf /var/lib/apt/lists/*
+        apt update && apt install python3-catkin-tools spacenavd libspnav-dev ros-$ROS_DISTRO-roslint -y && rm -rf /var/lib/apt/lists/*
         bash -c 'source /opt/ros/$ROS_DISTRO/setup.bash; \
-        catkin_make'
+        catkin build'
