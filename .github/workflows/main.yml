@@ -1,4 +1,4 @@
-name: spacenavpro
+name: spacemouse-build
 
 on:
   - push
